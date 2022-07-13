@@ -75,7 +75,7 @@ The working voltage of the MQ5 gas sensor is between 4.9V to 5.1V. The scope of 
 
 After installing Arduino IDE and learning how to connect everything, I started the real work.
 
-Firstly, my circuit looks a bit like this:
+Firstly, my circuit looks a bit like this:<br/>
 ![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Circuit.png)
 
 But below is an actual picture and a definition of how it is connected.
