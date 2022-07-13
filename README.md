@@ -15,9 +15,9 @@ Professor: Fredrik Ahlgren
 
 # Table of Contents
 
-[1 Introduction](#1 introduction)
+[1 Introduction](#introduction)
 
-[2 Theory](#2 theory)
+[2 Theory](#theory)
 
 [2.1 The Display Monitor](#_Toc108626611)
 
