@@ -15,7 +15,7 @@ Professor: Fredrik Ahlgren
 
 # Table of Contents
 
-[Introduction](#introduction)
+[1 Introduction](#introduction)
 
 [2Theory 2](#_Toc108626610)
 
@@ -31,7 +31,7 @@ Professor: Fredrik Ahlgren
 
 [6References 10](#_Toc108626616)
 
-# Int
+### Introduction
 
 For my project, I made a system that is used to detect if some kind of gas other than normal is detected. It is using a gas sensor and a display monitor. The sensor&#39;s value is displayed on both the serial and display monitor.
 
