@@ -46,15 +46,11 @@ This project can be used to detect if abnormal gases are present in a house, a g
 
 Here is a list of materials needed for this project:
 
-One Adafruit Huzzah32 ESP32 Feather Board – 188 SEK
-
-One Seeed MQ5 Gas Sensor – 80 SEK
-
-One Adafruit 938 128x64 OLED Display – 210 SEK
-
-One Adafruit 1609 Breadboard – 50 SEK
-
-Many Jumper Wires -10 SEK
+- One Adafruit Huzzah32 ESP32 Feather Board – 188 SEK
+- One Seeed MQ5 Gas Sensor – 80 SEK
+- One Adafruit 938 128x64 OLED Display – 210 SEK
+- One Adafruit 1609 Breadboard – 50 SEK
+- Many Jumper Wires -10 SEK
 
 Everything was bought on Elfa Distrelec (elfa.se). The total cost is 546 SEK.
 
@@ -67,49 +63,38 @@ The Adafruit OLED display 938 is a monochrome 1,3-inch monitor. It has a resolut
 
 To be able to use the 938-display in Arduino IDE and code something, libraries are required. The Adafruit SSD1306 library and the Adafruit GFX library are required along with their dependencies.
 
-![](RackMultipart20220713-1-ydxtk9_html_a54277c7a34222e7.png)
-
-_Adafruit 938 OLED Display_
-
 OLED displays are relatively new compared to LCDs. They were invented in the mid-1970s by Nobel Prize winners Alan Heeger, Alan MacDiarmed, and Hideki Shirakawa. Both types of displays can be used in the same monitors, but OLED is able to be much thinner, have greater brightness, and better color reproduction. (_explainthatstuff.com/how-oleds-and-leps-work.html_).
 
   ### Gas Sensor
 
 The MQ5 gas sensor from Seeed is used to detect a wide range of gases like LPG, Butane, Propane, Methane, Alcohol, and Hydrogen. A good way to use the sensor is to detect a gas leakage. The MQ5 sensor has high sensitivity which can be changed with its potentiometer. It also has a fast response time. It also is very stable and can have a long lifespan.
 
-![](RackMultipart20220713-1-ydxtk9_html_5ebf253befa605e.png)The working voltage of the MQ5 gas sensor is between 4.9V to 5.1V. The scope of gases which it can detect is between 200ppm and 10000ppm.
-
-_Seeed Groove MQ5 Gas Sensor_
+The working voltage of the MQ5 gas sensor is between 4.9V to 5.1V. The scope of gases which it can detect is between 200ppm and 10000ppm.
 
 ## Method
 
 After installing Arduino IDE and learning how to connect everything, I started the real work.
 
-![](RackMultipart20220713-1-ydxtk9_html_e0d5200299bd358b.jpg)Firstly, I plugged everything in my setup to the ESP32. My setup looks like this:
+Firstly, I plugged everything in my setup to the ESP32. My setup looks like this:
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/OK.jpg)
 
 **The display is connected so:**
 
-The GND pin is connected to the ground.
-
-The Vin pin is connected to the 3V.
-
-The DATA pin is connected to the SDA.
-
-The CLK pin is connected to the SCL.
-
-The RST pin is connected to the GPIO#32.
+The GND pin is connected to the ground.<br/>
+The Vin pin is connected to the 3V.<br/>
+The DATA pin is connected to the SDA.<br/>
+The CLK pin is connected to the SCL.<br/>
+The RST pin is connected to the GPIO#32.<br/>
 
 **The gas sensor is connected so:**
 
-The GND pin is connected to the ground.
+The GND pin is connected to the ground.<br/>
+The VCC pin is connected to the 3V.<br/>
+The SIG pin is connected to the GPIO#36 (A4).<br/>
 
-The VCC pin is connected to the 3V.
-
-The SIG pin is connected to the GPIO#36 (A4).
-
-![](RackMultipart20220713-1-ydxtk9_html_18b3109a774cba0f.png)Secondly, I wrote the code for the system using Arduino IDE. Here is what it looks like:
-
-![](RackMultipart20220713-1-ydxtk9_html_6cc5980b659a7120.png)
+Secondly, I wrote the code for the system using Arduino IDE. Here is what it looks like:
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Code1.png)
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Code2.png)
 
 It detects gas when the sensor&#39;s value is above 1000.
 
@@ -127,15 +112,20 @@ In my project, the desired system was successfully created and tested.
 
 Here is what is showed on the serial monitor:
 
-![](RackMultipart20220713-1-ydxtk9_html_28d4db8f149fe289.png)
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Serial.png)
+
+I chose to have a gauge showing the gas sensor value.
+I also have a line chart and a stream for keeping a history of those values with time stamps. 
 
 Here is what is showed on the display when the system detects gas:
 
-![](RackMultipart20220713-1-ydxtk9_html_70af8d4460ca20f9.jpg)
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Gas.jpg)
 
-![](RackMultipart20220713-1-ydxtk9_html_1cd49b9a641a9233.jpg)Here is what is showed in Adafruit IO browser application when everything is ok:
+Here is what is showed in Adafruit IO browser application when everything is ok:
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Adafruit%20IO%20OK.jpeg)
 
-![](RackMultipart20220713-1-ydxtk9_html_daf66a678369a8b2.jpg)Here is what is showed in Adafruit IO browser application when gas is detected:
+Here is what is showed in Adafruit IO browser application when gas is detected:
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Adafruit%20IO%20Gas.jpeg)
 
 ## Conclusion
 
@@ -149,14 +139,10 @@ The code I wrote was basic and I did not create the best detector system in the 
 
 The websites below were a good help:
 
-_learn.adafruit.com/adafruit-io/Arduino_
-
-_learn.adafruit.com/adafruit-io-basics-esp8266-arduino/example-sketches_
-
-_learn.adafruit.com/monochrome-oled-breakouts/arduino-library-and-examples_
-
-_randomnerdtutorials.com/guide-for-oled-display-with-arduino_
-
-_wiki.seeedstudio.com_
-
-_elfa.se_
+_learn.adafruit.com/adafruit-io/Arduino_<br/>
+_learn.adafruit.com/adafruit-io-basics-esp8266-arduino/example-sketches_<br/>
+_learn.adafruit.com/monochrome-oled-breakouts/arduino-library-and-examples_<br/>
+_docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax_<br/>
+_randomnerdtutorials.com/guide-for-oled-display-with-arduino_<br/>
+_wiki.seeedstudio.com_<br/>
+_elfa.se_<br/>
