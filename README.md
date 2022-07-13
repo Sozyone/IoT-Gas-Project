@@ -1,6 +1,4 @@
-Linnaeus University
-
-# Project
+# IoT Project
 
 ## Gas Detector
 
@@ -8,6 +6,7 @@ Linnaeus University
 **Mike_lou89@hotmail.com**<br/>
 **ml226gu**<br/>
 
+Linnaeus University
 July 13th, 2022
 
 Course: Internet of Things Applications<br/>
