@@ -11,10 +11,10 @@
 #include <Adafruit_SSD1306.h>
 #include "AdafruitIO_WiFi.h"
 
-#define IO_USERNAME "Ozyris"                            // Adafruit IO login
-#define IO_KEY      "aio_fdvf242PEJS3B7WaBTTUv2VQsvx7"
-#define WIFI_SSID   "Luna"                              // WIFI login
-#define WIFI_PASS   "Quebecbbq"
+#define IO_USERNAME "USER"                            // Adafruit IO login
+#define IO_KEY      "KEY"
+#define WIFI_SSID   "ID"                              // WIFI login
+#define WIFI_PASS   "PASS"
 
 #define GAS_PIN 36                                      // Gas sensor is connected to GPIO #36 (pin A4)
 
