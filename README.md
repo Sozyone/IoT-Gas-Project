@@ -1,30 +1,18 @@
-| Linnaeus University |
-| --- |
-|
+Linnaeus University
+
 # Project
- |
-|
+
 ## Gas Detector
- |
-| --- |
-|
+
+**Michael Loubier**
+**Mike_lou89@hotmail.com**
+**ml226gu**
 
 
+July 13th, 2022
 
- |
-| _ **Michael Loubier** __ **Mike\_lou89@hotmail.com** _ **ml226gu** |
-|
-
-
- |
-| July 13th, 2022 |
-
-| Course: Internet of Things Applications |
-| --- |
-|
- |
-| --- |
-| Professor: Fredrik Ahlgren |
+Course: Internet of Things Applications
+Professor: Fredrik Ahlgren
 
 # Table of Contents
 
