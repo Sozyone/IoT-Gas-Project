@@ -112,10 +112,7 @@ In my project, the desired system was successfully created and tested.
 
 Here is what is showed on the serial monitor:
 
-![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Serial.png)
-
-I chose to have a gauge showing the gas sensor value.
-I also have a line chart and a stream for keeping a history of those values with time stamps. 
+![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Serial.png) 
 
 Here is what is showed on the display when the system detects gas:
 
@@ -123,6 +120,9 @@ Here is what is showed on the display when the system detects gas:
 
 Here is what is showed in Adafruit IO browser application when everything is ok:
 ![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Adafruit%20IO%20OK.jpeg)
+
+I chose to have a gauge showing the gas sensor value.<br/>
+I also have a line chart and a stream for keeping a history of those values with time stamps.
 
 Here is what is showed in Adafruit IO browser application when gas is detected:
 ![](https://github.com/Sozyone/IoT-Gas-Project/blob/main/Adafruit%20IO%20Gas.jpeg)
