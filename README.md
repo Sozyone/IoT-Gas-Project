@@ -14,23 +14,15 @@ Professor: Fredrik Ahlgren
 
 # Table of Contents
 
-[1 Introduction](#introduction)
-
-[2 Materials](#materials)
-
-[3 Theory](#theory)
-
-[3.1 Display Monitor](#display-monitor)
-
-[3.2 Gas Sensor](#gas-sensor)
-
-[4 Method](#method)
-
-[5 Result](#result)
-
-[6 Conclusion](#conclusion)
-
-[7 References](#references)
+- [1 Introduction](#introduction)
+- [2 Materials](#materials)
+- [3 Theory](#theory)
+- [3.1 Display Monitor](#display-monitor)
+- [3.2 Gas Sensor](#gas-sensor)
+- [4 Method](#method)
+- [5 Result](#result)
+- [6 Conclusion](#conclusion)
+- [7 References](#references)
 
 ## Introduction
 
