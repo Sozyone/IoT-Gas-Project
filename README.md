@@ -31,7 +31,7 @@ Professor: Fredrik Ahlgren
 
 [6 References](#6 references)
 
-### 1 Introduction
+### Introduction
 
 For my project, I made a system that is used to detect if some kind of gas other than normal is detected. It is using a gas sensor and a display monitor. The sensor&#39;s value is displayed on both the serial and display monitor.
 
@@ -67,7 +67,7 @@ Everything was bought on Elfa Distrelec (elfa.se). The total cost is 546 SEK.
 
 More information about the monitor and the gas sensor is available in the theory section below.
 
-### 2 Theory
+### Theory
   1. **The Display Monitor**
 
 The Adafruit OLED display 938 is a monochrome 1,3-inch monitor. It has a resolution of 128 x 64 pixels. The display requires a power supply of 3.3V, but it can also work with 5V. The driver chip on the display can communicate with I2C or SPI or 8-bit parallel setup. SPI is generally faster but requires more pins.
