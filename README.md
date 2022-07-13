@@ -23,17 +23,17 @@ Professor: Fredrik Ahlgren
 
 [3.1 The Display Monitor](#monitor)
 
-[3.2 The Gas Sensor](#_Toc108626612)
+[3.2 The Gas Sensor](#sensor)
 
-[4 Method](#_Toc108626613)
+[4 Method](#method)
 
-[5 Result](#_Toc108626614)
+[5 Result](#result)
 
-[6 Conclusion](#_Toc108626615)
+[6 Conclusion](#conclusion)
 
-[7 References](#6 references)
+[7 References](#references)
 
-# Introduction
+## Introduction
 
 For my project, I made a system that is used to detect if some kind of gas other than normal is detected. It is using a gas sensor and a display monitor. The sensor&#39;s value is displayed on both the serial and display monitor.
 
@@ -51,7 +51,7 @@ I chose this project, because those were the materials I had and wanted to learn
 
 This project can be used to detect if abnormal gases are present in a house, a greenhouse, a shed, etc.
 
-# Materials
+## Materials
 
 Here is a list of materials needed for this project:
 
@@ -69,8 +69,8 @@ Everything was bought on Elfa Distrelec (elfa.se). The total cost is 546 SEK.
 
 More information about the monitor and the gas sensor is available in the theory section below.
 
-# Theory
-  ## Monitor
+## Theory
+  ### Monitor
 
 The Adafruit OLED display 938 is a monochrome 1,3-inch monitor. It has a resolution of 128 x 64 pixels. The display requires a power supply of 3.3V, but it can also work with 5V. The driver chip on the display can communicate with I2C or SPI or 8-bit parallel setup. SPI is generally faster but requires more pins.
 
@@ -82,7 +82,7 @@ _Adafruit 938 OLED Display_
 
 OLED displays are relatively new compared to LCDs. They were invented in the mid-1970s by Nobel Prize winners Alan Heeger, Alan MacDiarmed, and Hideki Shirakawa. Both types of displays can be used in the same monitors, but OLED is able to be much thinner, have greater brightness, and better color reproduction. (_explainthatstuff.com/how-oleds-and-leps-work.html_).
 
-  1. **The Gas Sensor**
+  ### Sensor
 
 The MQ5 gas sensor from Seeed is used to detect a wide range of gases like LPG, Butane, Propane, Methane, Alcohol, and Hydrogen. A good way to use the sensor is to detect a gas leakage. The MQ5 sensor has high sensitivity which can be changed with its potentiometer. It also has a fast response time. It also is very stable and can have a long lifespan.
 
@@ -90,7 +90,7 @@ The MQ5 gas sensor from Seeed is used to detect a wide range of gases like LPG, 
 
 _Seeed Groove MQ5 Gas Sensor_
 
-1. **Method**
+## Method
 
 After installing Arduino IDE and learning how to connect everything, I started the real work.
 
@@ -130,7 +130,7 @@ It is also important to set a text size, color, and location so that things are 
 
 The gas sensor reads its value at the beginning of every Loop(). It does so every 5 seconds and sends the data to the cloud (Adafruit IO).
 
-1. **Result**
+## Result
 
 In my project, the desired system was successfully created and tested.
 
@@ -146,7 +146,7 @@ Here is what is showed on the display when the system detects gas:
 
 ![](RackMultipart20220713-1-ydxtk9_html_daf66a678369a8b2.jpg)Here is what is showed in Adafruit IO browser application when gas is detected:
 
-1. **Conclusion**
+## Conclusion
 
 In the end, everything worked well, and my goal was reached. I was able to detect gas with the ESP32 and the MQ5 gas sensor. I was also able to show everything I wanted on the Adafruit 938 OLED display and the Adafruit IO web application.
 
@@ -154,7 +154,7 @@ It was very interesting to see the little monitor display data and the Adafruit 
 
 The code I wrote was basic and I did not create the best detector system in the world, but it worked well and could detect gas. Everything was connected through WIFI for IoT purposes.
 
-1. **References**
+## References
 
 The websites below were a good help:
 
