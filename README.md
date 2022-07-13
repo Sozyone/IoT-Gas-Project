@@ -4,7 +4,7 @@ Linnaeus University
 
 ## Gas Detector
 
-**Michael Loubier**
+**Michael Loubier**<br/>
 **Mike_lou89@hotmail.com**
 **ml226gu**
 
