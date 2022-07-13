@@ -17,6 +17,8 @@ Professor: Fredrik Ahlgren
 
 [1 Introduction](#introduction)
 
+[2 Materials](#materials)
+
 [2 Theory](#theory)
 
 [2.1 The Display Monitor](#_Toc108626611)
@@ -49,7 +51,7 @@ I chose this project, because those were the materials I had and wanted to learn
 
 This project can be used to detect if abnormal gases are present in a house, a greenhouse, a shed, etc.
 
-1. **Materials**
+# Materials
 
 Here is a list of materials needed for this project:
 
