@@ -8,10 +8,9 @@ Linnaeus University
 **Mike_lou89@hotmail.com**<br/>
 **ml226gu**<br/>
 
-
 July 13th, 2022
 
-Course: Internet of Things Applications
+Course: Internet of Things Applications<br/>
 Professor: Fredrik Ahlgren
 
 # Table of Contents
