@@ -6,7 +6,7 @@
 **Mike_lou89@hotmail.com**<br/>
 **ml226gu**<br/>
 
-Linnaeus University
+Linnaeus University<br/>
 July 13th, 2022
 
 Course: Internet of Things Applications<br/>
@@ -20,9 +20,9 @@ Professor: Fredrik Ahlgren
 
 [3 Theory](#theory)
 
-[3.1 The Display Monitor](#monitor)
+[3.1 Display Monitor](#display-monitor)
 
-[3.2 The Gas Sensor](#sensor)
+[3.2 Gas Sensor](#gas-sensor)
 
 [4 Method](#method)
 
@@ -69,7 +69,7 @@ Everything was bought on Elfa Distrelec (elfa.se). The total cost is 546 SEK.
 More information about the monitor and the gas sensor is available in the theory section below.
 
 ## Theory
-  ### Monitor
+  ### Display Monitor
 
 The Adafruit OLED display 938 is a monochrome 1,3-inch monitor. It has a resolution of 128 x 64 pixels. The display requires a power supply of 3.3V, but it can also work with 5V. The driver chip on the display can communicate with I2C or SPI or 8-bit parallel setup. SPI is generally faster but requires more pins.
 
@@ -81,7 +81,7 @@ _Adafruit 938 OLED Display_
 
 OLED displays are relatively new compared to LCDs. They were invented in the mid-1970s by Nobel Prize winners Alan Heeger, Alan MacDiarmed, and Hideki Shirakawa. Both types of displays can be used in the same monitors, but OLED is able to be much thinner, have greater brightness, and better color reproduction. (_explainthatstuff.com/how-oleds-and-leps-work.html_).
 
-  ### Sensor
+  ### Gas Sensor
 
 The MQ5 gas sensor from Seeed is used to detect a wide range of gases like LPG, Butane, Propane, Methane, Alcohol, and Hydrogen. A good way to use the sensor is to detect a gas leakage. The MQ5 sensor has high sensitivity which can be changed with its potentiometer. It also has a fast response time. It also is very stable and can have a long lifespan.
 
