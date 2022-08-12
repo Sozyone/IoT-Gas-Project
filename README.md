@@ -28,11 +28,13 @@ Professor: Fredrik Ahlgren
 
 For my project, I made a system that is used to detect if some kind of gas other than normal is detected. It is using a gas sensor and a display monitor. The sensor&#39;s value is displayed on both the serial and display monitor.
 
-This is an IoT project, so I am connecting to Adafruit IO (browser base) from my EPS32 Feather via WIFI to show data, graphs, and a history.
+This is an IoT project, so I am connecting to Adafruit IO (browser base) from my EPS32 Feather via WIFI to show data, graphs, and a history. Adafruit IO is a nice and easy to use IoT app from the same manufacturer as my ESP32.
 
 Message queue telemetry transport (MQTT) is the transport protocol that Adafruit IO uses.
 
 In my setup, I have an Adafruit 938 OLED display and a MQ5 gas sensor with an Adafruit ESP32 Feather.
+
+The IDE that I decided to use is Arduino IDE as it is one that is free and has a lot of documentation written about it. There were also many tutorials online using this IDE. 
 
 I tested the system by trying to detect gas and verify that the displays show the right text and values. I also verified that the Adafruit IO interface in my browser worked.
 
