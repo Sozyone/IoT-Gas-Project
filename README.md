@@ -34,11 +34,11 @@ Message queue telemetry transport (MQTT) is the transport protocol that Adafruit
 
 In my setup, I have an Adafruit 938 OLED display and a MQ5 gas sensor with an Adafruit ESP32 Feather.
 
-I tested the system by trying to detect gas and verify that the displays show the right text and values. I also verified that the that Adafruit IO interface in my browser worked.
+I tested the system by trying to detect gas and verify that the displays show the right text and values. I also verified that the Adafruit IO interface in my browser worked.
 
 I made the system detect if some kind of strange gas was in the air. Below a certain value there are no such gases.
 
-I chose this project, because those were the materials I had and wanted to learn how IoT works. How to connect a microcontroller to the internet. I chose a simple project.
+I chose this project, because those were the materials I had and wanted to learn how IoT works. How to connect a microcontroller to the internet. I chose a simple project and it took me about a week long to research and finish.
 
 This project can be used to detect if abnormal gases are present in a house, a greenhouse, a shed, etc.
 
