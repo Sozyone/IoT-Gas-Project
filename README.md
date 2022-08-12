@@ -34,7 +34,7 @@ Message queue telemetry transport (MQTT) is the transport protocol that Adafruit
 
 In my setup, I have an Adafruit 938 OLED display and a MQ5 gas sensor with an Adafruit ESP32 Feather.
 
-The IDE that I decided to use is Arduino IDE as it is one that is free and has a lot of documentation written about it. There were also many tutorials online using this IDE. 
+The IDE which I decided to use is Arduino IDE as it is free and has a lot of documentation written about it. There were also many tutorials online using this IDE. 
 
 I tested the system by trying to detect gas and verify that the displays show the right text and values. I also verified that the Adafruit IO interface in my browser worked.
 
