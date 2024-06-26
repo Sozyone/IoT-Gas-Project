@@ -113,10 +113,10 @@ Secondly, I wrote the code for the system using Arduino IDE. Here is what it loo
 #include <Adafruit_SSD1306.h>
 #include "AdafruitIO_WiFi.h"
 
-#define IO_USERNAME "Ozyris"                            // Adafruit IO login
-#define IO_KEY      "aio_UIWr06MLEknZuUdXfXmps7eP2jBa"
-#define WIFI_SSID   "Luna"                              // WIFI login
-#define WIFI_PASS   "Quebecbbq"
+#define IO_USERNAME "****"                            // Adafruit IO login
+#define IO_KEY      "****"
+#define WIFI_SSID   "****"                              // WIFI login
+#define WIFI_PASS   "****"
 
 #define GAS_PIN 36                                      // Gas sensor is connected to GPIO #36 (pin A4)
 
